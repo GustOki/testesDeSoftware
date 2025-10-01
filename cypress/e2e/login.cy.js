@@ -10,7 +10,7 @@ describe('Testes de Login', () => {
 
         cy.url().should('include', '/logged-in-successfully/');
         cy.contains('Congratulations').should('be.visible');
-        cy.contains('successfuly logged in').should('be.visible');
+        cy.contains('successfully logged in').should('be.visible');
     });
 
     it('Caso de Teste 02: login com user inexistente', () => {
